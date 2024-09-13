@@ -6,7 +6,7 @@ const cors = require("cors");
 const port = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://paypay-integration.vercel.app',
   methods: ['GET,POST'],
   allowedHeaders: ['Content-Type'],
 }));
